@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Solitreo&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 25%;
+}
+
+header h1 {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin: 0;
+}
+
+main h2 {
+    font-size: 36px;
+    margin: 20px 0;
+}
+
+.highlight {
+    font-size: 72px;
+    font-weight: bold;
+}
+
+.image-container img {
+    max-width: 100%;
+    border-radius: 15px;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #000; /* خلفية سوداء */
+    color: white; /* نص أبيض */
+    text-align: center; /* محاذاة النصوص في الوسط */
+    padding: 20px; /* مساحة داخلية */
+}
+
+footer a {
+    font-family: "Solitreo", serif;
+    text-decoration: none; /* إزالة الخط السفلي */
+    color: white; /* لون الرابط */
+    font-weight: bold; /* خط عريض */
+}
+
+footer a:hover {
+    font-family: "Solitreo", serif;
+    text-decoration: underline; /* خط تحت الرابط عند التمرير */
+}
+
+.github-logo {
+    display: block;
+    margin: 20px auto; 
+    width: 80px; 
+    height: 80px; 
+    border-radius: 110%;
+}
+
+footer p {
+    font-family: "Solitreo", serif;
+    margin: 5px 0; /* مساحة بين النصوص */
+}
+
+.next-button {
+    background-color: black;
+    color: #e5e5e5;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.next-button:hover {
+    background-color: #555;
+    color: #fff;
+}
