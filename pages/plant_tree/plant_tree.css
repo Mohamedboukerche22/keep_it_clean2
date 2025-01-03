@@ -47,34 +47,8 @@ body {
     font-weight: 900;
     cursor: pointer;
 }
-@media (max-width: 768px) {
-    body {
-        flex-direction: column; 
-        height: auto;
-        padding: 20px;
-    }
-
-    .title {
-        font-size: 24px; 
-    }
-
-    .step {
-        padding: 10px 20px; 
-        font-size: 16px; 
-    }
-
-    .image-container {
-        margin-bottom: 20px;
-        border-radius: 15px; 
-    }
-
-    .description {
-        font-size: 14px; 
-    }
-
-    .button {
-        padding: 10px 20px; 
-        font-size: 16px; 
-        border-radius: 8px; 
+@media (min-width: 600px) {
+    .emergency-numbers {
+        grid-template-columns: 1fr 1fr;
     }
 }
